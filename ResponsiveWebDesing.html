@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="esp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="">
+    <title>Universo</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>
+          See more
+          <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>
+          in our gallery
+        </p>
+        <a href="https://freecatphotoapp.com"
+          ><img
+            src="https://www.cosmonoticias.org/wp-content/uploads/2016/07/trappist-1.jpg"
+            alt="A cute      
+                orange cat lying on its back"
+          />
+        </a>
+      </section>
+
+      <section>
+        <h2>Cat List</h2>
+        <h3>Things cat love:</h3>
+
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img
+            src="https://plustatic.com/3995/conversions/planetas-mas-peque%C3%B1os-universo-default.jpg"
+            alt="A slice of lasagna on a plate."
+          />
+          <figcaption>Cast <em>love</em> lasagna</figcaption>
+        </figure>
+
+        <h3>Top 3 things cats hate:</h3>
+
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+
+        <figure>
+          <img
+            src="https://img.freepik.com/foto-gratis/espacio-galaxia-fondo-generativo-ai_191095-467.jpg"
+            alt="Five cats looking around a field."
+          />
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Cat form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an inddor or outdoor cat?</legend>
+            <label
+              ><input
+                type="radio"
+                checked
+                id="indoor"
+                name="inddor-outdoor"
+                value="indoor"
+              />Indoor</label
+            >
+            <label
+              ><input
+                type="radio"
+                id="outdoor"
+                name="inddor-outdoor"
+                value="outdoor"
+              />Outdoor</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>what's your cat's personality?</legend>
+            <input
+              type="checkbox"
+              id="loving"
+              name="personality"
+              value="loving"
+            />
+            <label for="loving"> Loving</label>
+
+            <input
+              type="checkbox"
+              id=" lazy"
+              name="personality"
+              value="checkbox"
+            />
+            <label for="lazy">Lazy</label>
+
+            <input
+              type="checkbox"
+              id="energetic"
+              name="personality"
+              value="energetic"
+            />
+            <label for="energetic">Energetic</label>
+          </fieldset>
+          <input
+            type="text"
+            name="catphotourl"
+            placeholder="cat photo URL"
+            required
+          />
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+        <footer>
+            <p> No Copyright - <a href="https://www.freecodecamp.org"> freeCodeCamp.org </p></a>
+        </footer>
+  </body>
+</html>
